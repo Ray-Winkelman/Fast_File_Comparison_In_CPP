@@ -16,7 +16,7 @@ This program compares two files and outputs the words in file B that are not in 
 	}
 ```
 
-	The value this produces will be the index of the hash tables internal array it will store the string. Hashing two completely different strings may produce the same value, so at each index of the array live an auto-balancing binary search tree. This data structure will add child nodes to the right or left of a root node according to a lexicographical comparison (lesser or greater ASCII data).
+The value this produces will be the index of the hash tables internal array it will store the string. Hashing two completely different strings may produce the same value, so at each index of the array live an auto-balancing binary search tree. This data structure will add child nodes to the right or left of a root node according to a lexicographical comparison (lesser or greater ASCII data).
 
 ```cpp
 	static void Insert(TreeNode *&node, char * key, bool newnode)
@@ -87,6 +87,6 @@ This program compares two files and outputs the words in file B that are not in 
 	}
 ```
 
-	Try it for yourself. The combination of these data structures is very, very fast! Much better than traditional linear searches!
+Try it for yourself. The combination of these data structures is very, very fast! Much better than traditional linear searches!
 	
-	Send a pull request if you have any ideas for improvement. 
+Send a pull request if you have any ideas for improvement. 
