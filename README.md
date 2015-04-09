@@ -14,11 +14,11 @@ This program compares two files and outputs the words in file B that are not in 
 
 		return sum % primenum;
 	}
-```cpp
+```
 
 	The value this produces will be the index of the hash tables internal array it will store the string. Hashing two completely different strings may produce the same value, so at each index of the array live an auto-balancing binary search tree. This data structure will add child nodes to the right or left of a root node according to a lexicographical comparison (lesser or greater ASCII data).
 
-```
+```cpp
 	static void Insert(TreeNode *&node, char * key, bool newnode)
 	{
 		try
